@@ -2,9 +2,7 @@
 
 Web News Scraper for Indonesian news articles with keyword & regex-based filtering.
 
----
-
-## Structure
+## Repo Structure
 
 ```
 .
@@ -17,8 +15,6 @@ Web News Scraper for Indonesian news articles with keyword & regex-based filteri
 └── README.md
 ```
 
----
-
 ## Setup
 
 ```bash
@@ -27,15 +23,11 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
-
 ## Run
 
 ```bash
 python scrape/_01_web-news-scrap.py
 ```
-
----
 
 ## Output
 
@@ -66,8 +58,6 @@ Each record:
 }
 ```
 
----
-
 ## Scope
 
 * **Source:** Antara News (politics section)
@@ -76,7 +66,6 @@ Each record:
 * **Filtering:** regex-based keyword matching
 * **Delay:** 1 second/request
 
----
 
 ## Notes
 
@@ -84,7 +73,6 @@ Each record:
 * Non-relevant articles are skipped
 * Basic anti-blocking via headers + delay
 
----
 
 ## License
 
